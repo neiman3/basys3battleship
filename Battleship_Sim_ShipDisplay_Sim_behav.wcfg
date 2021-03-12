@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Battleship_Sim_ShipDisplay_Sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Battleship_Sim_ShipDisplay_Sim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="366550fs"></ZoomStartTime>
+      <ZoomEndTime time="676051fs"></ZoomEndTime>
+      <Cursor1Time time="553550fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="214"></NameColumnWidth>
+      <ValueColumnWidth column_width="195"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/Battleship_Sim_ShipDisplay_Sim/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Battleship_Sim_ShipDisplay_Sim/DisplayOutput" type="array">
+      <obj_property name="ElementShortName">DisplayOutput[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DisplayOutput[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Battleship_Sim_ShipDisplay_Sim/an" type="array">
+      <obj_property name="ElementShortName">an[3:0]</obj_property>
+      <obj_property name="ObjectShortName">an[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Battleship_Sim_ShipDisplay_Sim/up" type="logic">
+      <obj_property name="ElementShortName">up</obj_property>
+      <obj_property name="ObjectShortName">up</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Battleship_Sim_ShipDisplay_Sim/down" type="logic">
+      <obj_property name="ElementShortName">down</obj_property>
+      <obj_property name="ObjectShortName">down</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Battleship_Sim_ShipDisplay_Sim/left" type="logic">
+      <obj_property name="ElementShortName">left</obj_property>
+      <obj_property name="ObjectShortName">left</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Battleship_Sim_ShipDisplay_Sim/right" type="logic">
+      <obj_property name="ElementShortName">right</obj_property>
+      <obj_property name="ObjectShortName">right</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Battleship_Sim_ShipDisplay_Sim/ok" type="logic">
+      <obj_property name="ElementShortName">ok</obj_property>
+      <obj_property name="ObjectShortName">ok</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Battleship_Sim_ShipDisplay_Sim/inst/dok" type="logic">
+      <obj_property name="ElementShortName">dok</obj_property>
+      <obj_property name="ObjectShortName">dok</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Battleship_Sim_ShipDisplay_Sim/inst/tship5" type="array">
+      <obj_property name="ElementShortName">tship5[27:0]</obj_property>
+      <obj_property name="ObjectShortName">tship5[27:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Battleship_Sim_ShipDisplay_Sim/inst/tship6" type="array">
+      <obj_property name="ElementShortName">tship6[27:0]</obj_property>
+      <obj_property name="ObjectShortName">tship6[27:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Battleship_Sim_ShipDisplay_Sim/inst/tship7" type="array">
+      <obj_property name="ElementShortName">tship7[27:0]</obj_property>
+      <obj_property name="ObjectShortName">tship7[27:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Battleship_Sim_ShipDisplay_Sim/inst/ships" type="array">
+      <obj_property name="ElementShortName">ships[27:0]</obj_property>
+      <obj_property name="ObjectShortName">ships[27:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Battleship_Sim_ShipDisplay_Sim/inst/ps" type="array">
+      <obj_property name="ElementShortName">ps[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ps[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Battleship_Sim_ShipDisplay_Sim/inst/p1_ships_load" type="logic">
+      <obj_property name="ElementShortName">p1_ships_load</obj_property>
+      <obj_property name="ObjectShortName">p1_ships_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Battleship_Sim_ShipDisplay_Sim/inst/p2_ships_load" type="logic">
+      <obj_property name="ElementShortName">p2_ships_load</obj_property>
+      <obj_property name="ObjectShortName">p2_ships_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Battleship_Sim_ShipDisplay_Sim/inst/p1_torps_load" type="logic">
+      <obj_property name="ElementShortName">p1_torps_load</obj_property>
+      <obj_property name="ObjectShortName">p1_torps_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Battleship_Sim_ShipDisplay_Sim/inst/p2_torps_load" type="logic">
+      <obj_property name="ElementShortName">p2_torps_load</obj_property>
+      <obj_property name="ObjectShortName">p2_torps_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Battleship_Sim_ShipDisplay_Sim/inst/p1_ships" type="array">
+      <obj_property name="ElementShortName">p1_ships[27:0]</obj_property>
+      <obj_property name="ObjectShortName">p1_ships[27:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Battleship_Sim_ShipDisplay_Sim/inst/p2_ships" type="array">
+      <obj_property name="ElementShortName">p2_ships[27:0]</obj_property>
+      <obj_property name="ObjectShortName">p2_ships[27:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Battleship_Sim_ShipDisplay_Sim/inst/p1_torps" type="array">
+      <obj_property name="ElementShortName">p1_torps[27:0]</obj_property>
+      <obj_property name="ObjectShortName">p1_torps[27:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Battleship_Sim_ShipDisplay_Sim/inst/p2_torps" type="array">
+      <obj_property name="ElementShortName">p2_torps[27:0]</obj_property>
+      <obj_property name="ObjectShortName">p2_torps[27:0]</obj_property>
+   </wvobject>
+</wave_config>
